@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="welcome.css">
+	<link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+<div class="hello">
+	<header>
+		<nav>
+			<a href="index.html">Welcome</a>
+			<a href="#education">Education</a>
+			<div class="soft">
+				<a href="#skill">Skills</a>
+				<div class="soft-hard">
+					<a href="#hards">Hard skills</a>
+					<a href="#hards">Soft skills</a>
+				</div>
+			</div>
+			<a href="#activities">Activities</a>
+			<a href="#goal">Goals</a>
+			<a href="#reference">References</a>
+			<div class="contact">
+				<a href="">Contact me</a>
+				<div class="contact-me">
+					<h3>Follow me</h3>
+					<a href="https://www.facebook.com/tansuluuz"><img src="f.png"></a>
+					<a href="https://twitter.com/tan_suluu97"><img src="t.png"></a>
+					<a href="https://www.youtube.com/channel/UCsPzhZqF32jJIgjlHyYIEJA"><img src="you.png"></a>
+					<a href="https://github.com/login"><img src="git.png"></a>
+					<a href="https://mail.google.com/mail/u/1/?tab=wm#inbox"><img src="gmail.png"></a>
+					<a href="https://vk.com/"><img src="vk.png"></a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 3</div>
+		  <img src="a2d.jpg" style="width:70%" height="600px" >
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 3</div>
+		  <img src="20160806_142754.jpg" style="width:70%" height ="600px">
+
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 3</div>
+		  <img src="IMG-20150915-WA0073.jpg" style="width:70%" height="600px">
+		  		</div>
+
+		</div>
+		<br>
+
+		<div class="dot1">
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		</div>
+		<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		    var i;
+		    var slides = document.getElementsByClassName("mySlides");
+		    var dots = document.getElementsByClassName("dot");
+		    for (i = 0; i < slides.length; i++) {
+		       slides[i].style.display = "none";  
+		    }
+		    slideIndex++;
+		    if (slideIndex> slides.length) {slideIndex = 1}    
+		    for (i = 0; i < dots.length; i++) {
+		        dots[i].className = dots[i].className.replace(" active", "");
+		    }
+		    slides[slideIndex-1].style.display = "block";  
+		    dots[slideIndex-1].className += " active";
+		    setTimeout(showSlides, 5000); // Change image every 2 seconds
+		}
+		</script>
+
+
+	<section id="about">
+			<h1>About  Me</h1>
+			<p>I am Tanya for friendsand I am studying Computer science at Ata-Turk university.I was born on the 25th of September 1997 in the town of Toktogul in Kyrgyzstan.Toktogul is a famous town for great people and water. I love my city!My family is not big. There are five of us: father,mother, two brothers and me.My dad is a teacher.My mom is a good-looking woman.She works as economist. My parents like reading books and magazines and they know a lot of interesting things. They always help me with my problems.
+			My first brother and sister-in-law are lower. They are happy parents for 3 children. My Second brother is a policman.He is very strick brother.</p>
+			<div class="container">
+  				<img src="IMG_6043.JPG" class="image">
+  				<div class="middle">
+   				<div class="text">Parents</div>
+  				</div>
+			</div>
+			<hr>
+			<h1 id="friend">Friend</h1>
+			<div class="container">
+  				<img src="nl.jpg" class="image">
+  				<div class="middle">
+   				<div class="text">Sevara friend</div>
+  				</div>
+			</div>
+			<p>It is important to have friends.I have many friends from school, university.One of my best friens name is Sevara. She studies at AUCA. It’s not easy to meet a true and faithful friend. I am happy that I have got Sevara. I trust her and I’m sure that I can rely on her in any situation. She is the single person who can ask for help and advice in unhappy moments of my life and whom I can tell all my problems. She never lets people down. I miss Seva when we don’t see each other for a long time. I think our friendship makes me feel confident; share to over feelings and opinions. Personally, I think that friendship is a great force.</p>
+			<hr>
+			<h1>Hobbies</h1>
+			<p>I love reading detectives.My favorite is "Sherlock Holmes" by Sir Arthur Conan Doyle. I like watching movies from real life. Which teach us things like "
+			Nothing is impossible" ,for example: Intouchables ,The Pursuit of Happyness, A beautiful life,The help. Sometimes I like to watch fantastic, such as Interstellar,The Butterfly Effect ,The Green Mile.I like playing big tennis. Also I love cooking,especialy baking for my family. And I am falling in love with coding!) </p>
+			<div class="container">
+  				<img src="ball.jpg" class="image">
+  				<div class="middle">
+   				<div class="text">Basketball</div>
+  				</div>
+			</div>
+		</section>
+	</div>
+
+	<div id="education">
+		<section>
+			<img src="edil.jpg" id="con">
+				<p id="ed">Getting a good education is an important contribution to our future. It is the main key to success and has always been like that. Knowledge is force. If a person is an expert in his field, he will always be in demand. Knowledge has always helped people. Thanks to it!</p>
+				<div class="contain">
+  					<img src="IMG_6023.JPG" class="img">
+  					<div class="mid">
+   					<div class="txt">A great day at school</div>
+  					</div>
+				</div>
+				<div class="box">
+				<h1>Childhood</h1>
+				<hr>
+				<p>I went to  kindergarten then I went to Toktogul school in 2002. My school is one of the best in my city. I used to be active at all activities in school. I was good at maths and chemisty, but bad at languages.I love my all teachers. They taught me a lot of things. They raised me the way I am now. My most beloved teacher, as they say at school, my second mother, is Lyudmila Toktosunovna. I owe her a lot.She shows me the right way in life. On her advice I entered our university. My classmates are very friendly and positive guys.They always believe and support me.</p>
+			</div>
+			<div class="contain">
+  				<img src="a2d.JPG" class="img">
+  				<div class="mid">
+   				<div class="txt">Lovely A2-D!</div>
+  				</div>
+  			</div>
+  			<div class="box">
+				<h1>Prep School</h1>
+				<hr>
+				<p>My one of the brightest years passed in the preparatory school. Where I studied English and Turkish.I have increased my English language and learned Turkish. I am grateful to God for acquaintance with remarkable people. My curators are Huseyin bey and Ms.Zuura, They were more than just teachers. They became friends with whom we can share our dreams and fears.And I have found new friends.My group A2-D, we became very close friends. We spent a lot of time together and nowadays we stil have good relationship.They are just wonderful people.</p>
+			</div>
+			<div class="contain">
+  				<img src="inf.JPG" class="img">
+  				<div class="mid">
+   				<div class="txt">My comp-16!</div>
+  				</div>
+  			</div>
+			<div class="box">
+				<h1>University</h1>
+				<hr>
+				<p>Nowadays I'm studying at Ata Turk Alatoo University for a programmer. I'm interested in my specialty. So I'm learning with a great desire. Our lessons are so interesting. Our teachers are very well know their fields. With classmates, we have already become close people. We are having wonderful time together. If I have some problems I can ask help from them. And they will help me with pleasure. Also me too trying to help them.  We have a wonderful curator Mr.Dilshat. He is teaching us for everything that he knows. And We love how he is teaching us.</p>
+			</div>
+		</section>
+	</div>
+	<div id="skill">
+		
+		<section >
+		<img src="skil.jpg" id="con">
+  			<div id="hards">
+				<h1>Hard skills!</h1>
+				<p>Nowadays I am learning them</p>
+				<ul>
+					<li>Languages</li>
+						<ul>
+							<li>Kyrgyz(native)</li>
+							<li>English</li>
+							<li>Russion</li>
+							<li>Turkish</li>
+						</ul>
+					<li>Basic Computer Skills</li>
+						<ul>
+							<li>Microsoft Excel</li>
+							<li>Microsoft Word</li>
+							<li>PowerPoint</li>
+						</ul>
+					<li>Programming languages</li>
+						<ul>
+							<li>Java</li>
+							<li>Python</li>
+							<li>C++</li>
+						</ul>
+					<li>Web Design</li>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+						</ul>
+					<li>Mathematics</li>
+				</ul>
+			</div>
+			<div class="contain1">
+  				<img src="12.jpg" class="img1">
+  				<div class="mid1">
+   				<div class="txt1">Love coding</div>
+  				</div>
+  			</div>
+  			<div class="contain1">
+  				<img src="д.jpg" class="img1">
+  				<div class="mid1">
+   				<div class="txt1">Competition at school</div>
+  				</div>
+  			</div>
+		
+  			<div id="har">
+				<h1>Soft skills</h1>
+				<p>I don't want to say that I am master in this skills, but I am trying to become a master.</p>
+				<ul>
+					<li>Communication</li>
+					<br>
+					<li>Flexibility</li>
+					<br>
+					<li>Problem Solving Abilities</li>
+					<br>
+					<li>Teamwork</li>
+					<br>
+					<li>Friendly</li>
+					<br>
+					<li>Able to listen</li>
+					<br>
+					<li>Reliable</li>
+					<br>
+					<li>Dedicated</li>
+					<br>
+					<li>Active</li>
+					<br>
+
+				</ul>
+			</div>
+				<div class="contain1">
+  				<img src="a2.jpg" class="img1">
+  				<div class="mid1">
+   				<div class="txt1">English Competition</div>
+  				</div>
+  			</div>
+  			<div class="contain1">
+  				<img src="la.jpg" class="img1">
+  				<div class="mid1">
+   				<div class="txt1">Picnic</div>
+  				</div>
+  			</div>
+
+		</section>
+	</div>
+	<div id="activities">
+		<section>
+			<img src="act.jpg" id="con">
+			<h3 class="work">My project</h3>
+			<video id="vid" src="video/VID-20170114-WA0013.mp4" controls="" ></video>
+			<h3 class="work">Work done by me</h3>
+		
+				<div class="contain2">
+  				<img src="otk.jpg" class="img2">
+  				<div class="mid2">
+   				<div class="txt2">Olimpic opening</div>
+  				</div>
+  			</div>
+  				<div class="contain2">
+  				<img src="meda.jpg" class="img2">
+  				<div class="mid2">
+   				<div class="txt2">With Meder at ceremony</div>
+  				</div>
+  			</div>
+  					<div class="contain2">
+  				<img src="lal.jpg" class="img2">
+  				<div class="mid2">
+   				<div class="txt2">With teachers</div>
+  				</div>
+  			</div>
+			
+			
+			<div class="contain2">
+  				<img src="mr.jpg" class="img2">
+  				<div class="mid2">
+   				<div class="txt2">Cake for me</div>
+  				</div>
+  			</div>
+  				<div class="contain2">
+  				<img src="mirae.jpg" class="img2">
+  				<div class="mid2">
+   				<div class="txt2">My aunt</div>
+  				</div>
+  			</div>
+  					<div class="contain2">
+  				<img src="nk.jpg" class="img2">
+  				<div class="mid2">
+   				<div class="txt2">Mom and principal</div>
+  				</div>
+  			</div>
+			<h1 id="work">Rewards</h1>
+			<div id="rewar">
+			<ul>
+				
+				<img src="ub.jpg" class="ln">
+				<img src="в.jpg" class="ln">
+				
+				<video id="vid2" src="video/main.mp4" autoplay width="700px"></video>
+
+				
+			</ul>
+			</div>
+		</section>
+	</div>
+	
+	<div id="goal">
+		<section>
+		<div class="goals">
+			<img src="goal.jpg" id="con" >
+			<p>Goals are the most important thing in a person’s life, without them your life would just be plain and boring not excitement at all. Without making goals in your life you would have nothing to look forward to, or even have anything to achieve. If you have the goal, every day it makes your life more colourful.</p>
+			<h1>Short-term Goals</h1>
+			<hr>
+			
+				<div class="contain">
+  				<img src="p2.JPG" class="img">
+  				<div class="mid">
+   				<div class="txt">My dream</div>
+  				</div>
+  			</div>
+
+
+	<div id="reference">
+		<section>
+			<div class="ref">
+			<div class="container3">
+  				<img src="ms.Burul.jpg" class="image3">
+  				<div class="middle3">
+   				<div class="text3">In Italy</div>
+  				</div>
+			</div>
+			<h1>Teacher:Shambetova Burul</h1>
+			<p>It is a great pleasure to write a recommendation letter for one of the best students in the course. Tansuluu Myrzaeva was my student at Programming languages 1 using Python.  She was one of the students with great intellectual abilities, whose goal was  to learn Python and make her best. She is the leader of her group, does what she have said and gives herself fully to achieve her aims. Tansuluu  is a creative thinker and an active person. These traits helped her to achieve outstanding results in studies and gain authority among the society within the university. As a student she was always among the most active ones during the class, taking part in problem solving and discussions. I am more than sure that Tansulu's hard working personality and devotion to her goal of becoming the best programmer  will assist her achieve brilliant outcomes in the future as they did to this day. I recommend her as an assistant to the Web Technologies course For further questions you can contact me by whatsapp or emai</p>
+			<div class="container3">
+  				<img src="ms.Zuura.jpg" class="image3">
+  				<div class="middle3">
+   				<div class="text3">At USA</div>
+  				</div>
+			</div>
+			<h1>Advisor: Zuura Idrisova</h1>
+			<p>I have known Myrzaeva Tansuluu for over a year and I can speak highly of her academic success and personal achievements. She is a very hard-working and persistent student, who is always in search of new discoveries and ready to help people. Moreover, she is very responsible and can easily manage her recources. She is very friendly and optimistic, who never puts her hands away if obstacles appear on her path, because she will always embrace them with full positivity of her mind.</p>
+			<div class="container3">
+  				<img src="dar.jpg" class="image3">
+  				<div class="middle3">
+   				<div class="text3">Just good girl</div>
+  				</div>
+			</div>
+			<h1>Friend: Alieva Dariia</h1>
+			<p>Tanya is very kind, responsive and positive. She always supports in difficult times, always give good advise,she will come to the rescue at any time. Tanya is a very good friend in our time a rariry.She is very optimistic and hardworking girl. She always wants to be at the top. When she is studying, all her attention will be on study.She will cry or be angry if she gets less than 100 points.</p>
+			<div class="container3">
+  				<img src="argo.jpg" class="image3">
+  				<div class="middle3">
+   				<div class="text3">Football fanat</div>
+  				</div>
+			</div>
+			<h1>Groupmate:Turatbekov Argen</h1>
+			<p>Я знаю Мырзаеву Таню как оптимистку, добрую девушку. Трудолюбивую и помогающую всем но иногда она может кинуть тебя это тоже знайте . А так хороший человек со своими тараканами в голове, если вы её не возьмёте , то очень сильно пожалеете . Она пашет почти как робот . В конце учебу вы будете умолять её закончить ваш универ , но она вас откажет и приедет в Кыргызстан помогать Аргену(I said him that it was for exchange programm)</p>
+			<div class="container3">
+  				<img src="elya.jpg" class="image3">
+  				<div class="middle3">
+   				<div class="text3">At prep school</div>
+  				</div>
+			</div>
+			<h1> Sister:Kurmanbekova Elmira.</h1>
+			<p> I know Tanya as a good person. She is very cheerful and active. Loves to learn someth new and also, likes to be in the course on the latest news about someone or something. You can safely entrust her the most precious thing that you have, because she is very responsible. Tanya is one of those who know how to be friends for a long time and she is the soul of the company. But, sometimes it's better not to touch her when she's not in the mood. This can be dangerous for your mood and sometimes even for your health. That's all.</p>
+			</div>
+		</section>
+	</div>
+
+	<footer>
+	<a href="welcome.html" ><img src="logo.png" id="foot"></a>
+		<div class="footer">
+			<h3>Follow me</h3>
+			<a href="https://twitter.com/tan_suluu97"><img src="t.png"></a>
+			<a href="https://www.youtube.com/channel/UCsPzhZqF32jJIgjlHyYIEJA"><img src="you.png"></a>
+			<a href="https://github.com/login"><img src="git.png"></a>
+			<a href="https://mail.google.com/mail/u/1/?tab=wm#inbox"><img src="gmail.png"></a>
+			<a href="https://vk.com/"><img src="vk.png"></a>
+			<a href="https://www.facebook.com/tansuluuz"><img src="f.png"></a>
+		</div>
+	</footer>
+	</div>
+	</div>
+</body>
+</html>
